@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Problema 5</h1>
+    <p>usuario digita 2 números e converter números para inteiros e mostrar uma mensagem 
+    com o resto da divisão do número, a multiplicação e o número elevado ao quadrado</p>
+
+        <script>
+
+        let num1 = prompt("Digite um número")
+        console.log(num1)
+        num1 = Number(num1)
+
+        let num2 = prompt("Digite outro número")
+        console.log(num2)
+        num2 = Number(num2)
+
+        alert("o resto da divisão de " + `${num1}`+ " e " +`${num2}` + " é " + (num1%num2))
+        //devolvendo o resultado da divisão não o resto---> % devolve o resto da divisão
+
+        alert("a multiplicação de " + `${num1}`+ " e " +`${num2}` + " é " + (num1*num2))
+
+        alert("o numéro " + `${num1}`+ " elevado ao quadrado é  " + (num1 ** 2))
+        //para eleva **2 ao cubo **3
+
+        alert("o numéro " + `${num2}`+ " elevado ao quadrado é  " + (num2 ** 3))
+
+
+        </script>
+</body>
+</html>
